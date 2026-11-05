@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.1</title>
+      <pubDate>Thu, 05 Nov 2026 16:14:38 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Apple silicon only: no Intel build</li><li>CLAUDE.md: the sessions manager publishes releases (Edgar)</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.1/ReSSH-0.3.1.zip" type="application/octet-stream" sparkle:edSignature="KCdYaNoNfZjcuF00OF8ujQut4RjpPPc1uwlg+Pnk2m3CU92NGcpsqlW/vay8BttZq4bPBl+JCeR7dwsdftJLCw==" length="11132986"/>
+    </item>
+    <item>
       <title>Version 0.3.0</title>
       <pubDate>Thu, 05 Nov 2026 15:06:12 GMT</pubDate>
       <sparkle:version>3</sparkle:version>
