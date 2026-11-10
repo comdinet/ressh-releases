@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.3</title>
+      <pubDate>Tue, 10 Nov 2026 17:15:13 GMT</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Demo folder upload: walk the folder from its real path</li><li>Demo folder upload: an unreadable folder is an error, an unreadable subfolder a failure</li><li>Demo folder upload: walk one entry at a time, bounded, and stop on Cancel</li><li>Demo: folder upload (the demo server said "That isn't available here.")</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.3/ReSSH-0.3.3.zip" type="application/octet-stream" sparkle:edSignature="TUrDpFus1I9oXpfPZcXAz+o14P2FtS7T87rbXaXcsH0qOM7dDynkqBTE6BtnEFdju5z+RRY339w+VU8Tsf1iDw==" length="11196102"/>
+    </item>
+    <item>
       <title>Version 0.3.2</title>
       <pubDate>Thu, 05 Nov 2026 16:36:29 GMT</pubDate>
       <sparkle:version>5</sparkle:version>
