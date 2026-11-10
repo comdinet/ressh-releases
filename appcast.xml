@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.4</title>
+      <pubDate>Tue, 10 Nov 2026 17:33:22 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Merge remote-tracking branch 'origin/ai-assistants-like-mail'</li><li>AI Access: with RESSH_DATA_DIR set, Claude Code's command adds the server with that folder (the plugin can't carry it)</li><li>AI Access review fixes: only a saved host's tab can be granted, and a host edit ends its grant for good</li><li>AI Access review fixes: a granted tab's command runs only through its connection (no fallback login), and any network path update ends grants; live test through a real master</li><li>AI Access review fixes: write_file gives ssh its stdin (no -n), the grant prompt sees PRODUCTION as the broadcast does, the socket takes an escaped 1 MB write; live write_file test</li><li>AI Access: Let AI Use This Tab: any command and write_file on a tab the user granted, no approvals, until its time runs out, the tab reconnects, the network changes, the vault locks or the user stops it</li><li>AI Access: connect clients as in Remedio Mail: Install in Claude (.mcpb), a Claude Code plugin with a ReSSH skill, Codex, install status, named clients with Revoke, live activity</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.4/ReSSH-0.3.4.zip" type="application/octet-stream" sparkle:edSignature="7k96bgCMSr3MWLaqEhN+ccwNyYLtqCbyMtcxwwhOy25Syp97/QUZBkKjsgYxDe25/rTeqGCjDZSz0XlE5Y1NBg==" length="11343808"/>
+    </item>
+    <item>
       <title>Version 0.3.3</title>
       <pubDate>Tue, 10 Nov 2026 17:15:13 GMT</pubDate>
       <sparkle:version>6</sparkle:version>
