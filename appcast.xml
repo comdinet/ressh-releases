@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.6</title>
+      <pubDate>Wed, 11 Nov 2026 13:19:30 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>AI helper: exits only after writing the answer that reports the update, never on a concurrent answer, and only when its file really changed (review)</li><li>AI Access: Claude comes from the organization's claude.ai library, so no Install in Claude, Export or Claude Code command; the settings show whether the org plugin is here. The outbox carries only the claude.ai plugin.</li><li>AI helper: one that outlived a ReSSH update says so and exits, so the client marks ReSSH failed and reconnects (it only timed out before)</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.6/ReSSH-0.3.6.zip" type="application/octet-stream" sparkle:edSignature="GBYgAibLXDmZItnJRVw02wwvhDk1nW8zdncyFoRV+VHJRoHM9HJsieaqUvd7dFK8ST1ie7esykXAUjm7QhZWBg==" length="11501195"/>
+    </item>
+    <item>
       <title>Version 0.3.5</title>
       <pubDate>Wed, 11 Nov 2026 07:47:26 GMT</pubDate>
       <sparkle:version>8</sparkle:version>
