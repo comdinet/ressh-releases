@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.5</title>
+      <pubDate>Wed, 11 Nov 2026 07:47:26 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Release: the outbox step also survives a failed mkdir or an undeletable older file (review)</li><li>Release: the outbox step can't fail a release or touch the real outbox in tests, and copies before it removes; the release-script test's failure report no longer appends its log to itself (it filled the disk)</li><li>AI helper: no structuredContent in tool results; Claude Code showed it instead of the text, so commands' output never reached Claude</li><li>Claude Code plugin: no bin/ (claude.ai-hosted plugins refuse it); the launcher is server/ressh-mcp, started by mcpServers through /bin/sh; README and icon for the organization upload</li><li>Release: the DMG and the organization installers (Claude extension .mcpb, Claude Code plugin zip) go to Edgar's AI_Outbox</li><li>CLAUDE.md: a published release goes on the board with ready at once</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.5/ReSSH-0.3.5.zip" type="application/octet-stream" sparkle:edSignature="EPCgGxMOmaIH9AALM1k4EOf1kQeWMoVNJ/etYBhPSSJGoZQRX3X0dWBsJGAFOZX6nzGGphSOpb9W6lNNjmjbCA==" length="11514815"/>
+    </item>
+    <item>
       <title>Version 0.3.4</title>
       <pubDate>Tue, 10 Nov 2026 17:33:22 GMT</pubDate>
       <sparkle:version>7</sparkle:version>
