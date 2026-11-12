@@ -3,6 +3,16 @@
   <channel>
     <title>ReSSH</title>
     <item>
+      <title>Version 0.3.9</title>
+      <pubDate>Thu, 12 Nov 2026 21:22:31 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.3.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>AI hold: a profile's idle time locks even during a held screen lock; a display wake ends a display-only sleep</li><li>Vault: keep it open while AI is working (option, off by default)</li></ul>]]></description>
+      <enclosure url="https://github.com/comdinet/ressh-releases/releases/download/v0.3.9/ReSSH-0.3.9.zip" type="application/octet-stream" sparkle:edSignature="SfoaMVxIZzMIounHRvE7BEn83a/QdFjZmBVskcGY5k7Suj2cMmuGUW7eIaCNdmR1SOyd2VMbei3ITV+s8TeeDw==" length="11547017"/>
+    </item>
+    <item>
       <title>Version 0.3.8</title>
       <pubDate>Thu, 12 Nov 2026 20:16:53 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
